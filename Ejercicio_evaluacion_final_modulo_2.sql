@@ -94,7 +94,7 @@ ON film.film_id = film_category.film_id
 INNER JOIN category
 ON film_category.category_id = category.category_id
 GROUP BY category.name
-ORDER BY recueNto_alquileres DESC;
+ORDER BY recuento_alquileres DESC;
 
 -- EJERCICIO 12:
 SELECT
